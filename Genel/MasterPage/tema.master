@@ -147,9 +147,14 @@
             </div>
         </div>
          <!-- #SHORTCUT BUTTONS -->
-        <div class="col-xs-12" >
+        <div class="iconButton col-xs-12 "  style="background-color:#69AB3D" >
          <div class="col-6" style="float:right">
-              <button type="button" class="btn btn-warning" text="ddddddddd">Success</button>
+              <button type="button" class="iconButton"  text="ddddddddd"><i class="material-icons">save</i></button>
+              <button type="button" class="iconButton" text="ddddddddd"><i class="material-icons">delete</i></button>
+              <button type="button" class="iconButton" text="ddddddddd"><i class="material-icons">close</i></button>
+           <imagebutton>
+            
+           </imagebutton>
          </div>
 
         </div>

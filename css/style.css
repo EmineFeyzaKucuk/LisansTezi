@@ -18,6 +18,11 @@
     z-index: 12;
     width: 100%;
 }
+.iconButton {
+    background-color: purple;
+    height:800px;
+    width: 80px;
+}
 
     .navbar .navbar-brand {
         white-space: nowrap;
@@ -10347,3 +10352,4 @@ html.ie11 .dropdown-menu ul.menu li a {
 html.ie11 .bs-searchbox .form-control {
     width: 90%;
 }
+
