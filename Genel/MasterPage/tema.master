@@ -68,8 +68,8 @@
     <!-- #END# Overlay For Sidebars -->
     <!-- Search Bar -->
     <div class="search-bar">
-        <div class="search-icon">
-            <i class="material-icons">search</i>
+        <div class="search-icon" >
+            <i class="material-icons" >search</i>
         </div>
         <input type="text" placeholder="START TYPING...">
         <div class="close-search">
@@ -79,13 +79,12 @@
     <!-- #END# Search Bar -->
     <!-- Top Bar -->
     <nav class="navbar">
-             
         <div class="container-fluid" style="background-color:#69AB3D">
             <div class="navbar-header" style="background-color:#295D09">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" ></a>
                 <a href="javascript:void(0);" class="bars"></a>
                 <a class="navbar-brand" href="../Tanimlar/Default.aspx">
-                    <asp:Label ID="Baslik" runat="server" Text="eCrOp - ERP Takip Sistemi"></asp:Label></a>
+                    <asp:Label ID="Baslik" runat="server" Text="eCrOp - ERP Takip Sistemi" > </asp:Label></a>
       
             </div>
             <script type="text/javascript">
@@ -145,35 +144,48 @@
                     <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">more_vert</i></a></li>
                 </ul>
             </div>
+                  
         </div>
-         <!-- #SHORTCUT BUTTONS -->
-        <div class="iconButton col-xs-12 "  style="background-color:#69AB3D" >
-         <div class="col-6" style="float:right">
-              <button type="button" class="iconButton"  text="ddddddddd"><i class="material-icons">save</i></button>
-              <button type="button" class="iconButton" text="ddddddddd"><i class="material-icons">delete</i></button>
-              <button type="button" class="iconButton" text="ddddddddd"><i class="material-icons">close</i></button>
-           <imagebutton>
-            
-           </imagebutton>
+
+    </nav>
+
+
+
+      
+    <!-- #Top Bar -->
+    <form id="form1" runat="server">
+        !-- #SHORTCUT BUTTONS -->
+        <div class="container col-xs-12 "style="background-color:#69AB3D; margin-top:30px;" >
+         <div class="col-12" style="float:right; justify-content:center">
+                 
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">undo</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">redo</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">delete</i></button> 
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">delete</i></button> 
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">topic</i></button> 
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">save</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">delete</i></button>            
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">add</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">check</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">edit</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">mail</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">analytics</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">domain</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">description</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">help</i></button>
+              <button type="button" class="iconButton"   style="background-color:#295D09;color:white; height:60px;width:73px"text="ddddddddd"><i class="material-icons">eco</i></button>
          </div>
 
         </div>
 <!-- # END SHORTCUT BUTTONS -->
-    </nav>
-    <div>
-
-    </div>
-       
-  
-    <!-- #Top Bar -->
-    
-    <form id="form1" runat="server">
-        <section>
+ 
+         
+        <section >
             <!-- Left Sidebar -->
 
             <aside id="leftsidebar" class="sidebar">
                 <!-- User Info -->
-                <div class="user-info" style="background: url('../../images/user.jpeg') no-repeat no-repeat">
+                <div class="user-info" style="background: url('../../images/kullanıcıArkaplan.jpeg') no-repeat no-repeat;">
                     <div class="image">
                         <img src="../../images/user.png" width="48" height="48" alt="User" />
                     </div>

@@ -14,7 +14,8 @@ public partial class Tema : System.Web.UI.MasterPage
     {
         if (Session["sayfaAdi"] == null)
             Session["sayfaAdi"] = "Hoşgeldiniz...";
-        Baslik.Text = "eCrOp- " + Session["sayfaAdi"].ToString();
+
+        
         if (!Page.IsPostBack)
         {
             try

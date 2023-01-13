@@ -11,20 +11,20 @@
     <!--webfonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
-<body>
-    <div class="main">
-        <div class="login-form">
-            <h1>Kullanıcı Girişi</h1>
-            <div class="head">
-                <img src="images/userLogin.png" alt="" />
+<body style="background:#dbead5">
+    <div class="main" style="background:#dbead5">
+        <div class="login-form" style="background:#295D09">
+            <h1 style="color:white">Kullanıcı Girişi</h1>
+            <div class="head" style=" height:120px;width:120px">
+                <img src="images/logo.jpeg" alt="" />
             </div>
             <form id="form1" runat="server">
                 <input runat="server" id="txtKullaniciAdi" type="text" class="text" placeholder="Kullanıcı Adı" />
                 <input runat="server" id="txtSifre" type="password" placeholder="Şifre" />
                 <div class="submit">
-                    <asp:Button ID="btnGiris" runat="server" Text="Giriş" ForeColor="White" Font-Size="Large" Font-Names="Verdana" OnClick="btnGiris_Click" />
+                    <asp:Button ID="btnGiris" runat="server" BackColor="#dbead5"   Text="Giriş" ForeColor="#295D09" Font-Size="Large" Font-Names="Verdana" OnClick="btnGiris_Click" />
                 </div>
-                <p><asp:CheckBox ID="chkBeniHatirla" runat="server" Text="Beni Hatırla"/>&nbsp;&nbsp;&nbsp;<a href="#">Şifremi Unuttum ?</a></p>
+                <p><asp:CheckBox ID="chkBeniHatirla" runat="server" style="color:white" Text="Beni Hatırla"/>&nbsp;&nbsp;&nbsp;<a href="#" style="color:white">Şifremi Unuttum ?</a></p>
                 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
                     <Scripts>
                         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js"></asp:ScriptReference>

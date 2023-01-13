@@ -18,11 +18,8 @@
     z-index: 12;
     width: 100%;
 }
-.iconButton {
-    background-color: purple;
-    height:800px;
-    width: 80px;
-}
+
+
 
     .navbar .navbar-brand {
         white-space: nowrap;
