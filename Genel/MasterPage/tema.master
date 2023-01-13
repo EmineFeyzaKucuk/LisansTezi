@@ -217,7 +217,7 @@
                         <li class="header">
                             <asp:Label ID="lblErpAdi" runat="server" Text=""></asp:Label></li>
                         <li>
-                            <a href="deneme.aspx">
+                            <a href="Anasayfa.aspx">
                                 <i class="material-icons">home</i>
                                 <span>ANASAYFA</span>
                                  <div>
