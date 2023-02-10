@@ -231,7 +231,7 @@
                             </a>
                             <ul class="ml-menu">
                                 <li runat="server" id="li21">
-                                    <a href="../Tanimlar/UrunOzellik.aspx">xxx</a>
+                                    <a href="../Tanimlar/StokModulu.aspx">xxx</a>
                                 </li>
                                 
 

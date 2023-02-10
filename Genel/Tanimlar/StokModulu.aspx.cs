@@ -13,10 +13,10 @@ public partial class Genel_Tanimlar_StokModulu : System.Web.UI.Page
 
     }
 
-    protected void menuTab_MenuItemClick(object sender, MenuEventArgs e)
-    {
-        mvTab.ActiveViewIndex = Convert.ToInt32(e.Item.Value);
-    }
+    //protected void menuTab_MenuItemClick(object sender, MenuEventArgs e)
+    //{
+    //    mvTab.ActiveViewIndex = Convert.ToInt32(e.Item.Value);
+    //}
 
 
 }
